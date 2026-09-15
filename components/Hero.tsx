@@ -75,7 +75,7 @@ export default function Hero() {
                   <span className="text-xs font-bold uppercase tracking-wider text-[#667085] bg-[#EEF3FB] px-3 py-1 rounded-md">
                     Simulated Exam
                   </span>
-                  <h3 className="text-lg font-bold text-[#002868] mt-2">Official Citizenship Practice</h3>
+                  <h3 className="text-lg font-bold text-[#002868] mt-2"> Australian Citizenship Practice Test</h3>
                 </div>
                 <div className="flex items-center gap-2 text-[#667085] text-sm bg-[#F5F7FA] px-3 py-1.5 rounded-full border border-[#E4E7EC]">
                   <Clock className="w-4 h-4 text-[#C8102E]" />
