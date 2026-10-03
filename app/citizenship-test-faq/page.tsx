@@ -104,9 +104,9 @@ const FAQS = [
     icon: ShieldCheck,
     questions: [
       {
-        q: "What happens if I fail the Australian citizenship test?",
-        a: "Failing the citizenship test does not automatically end your citizenship application. You may be given another opportunity to sit the test. Follow the instructions provided by the Department of Home Affairs after your unsuccessful attempt.",
-      },
+  q: "What happens if I fail the Australian citizenship test?",
+  a: "If you do not pass the Australian citizenship test, this does not affect your visa and you can continue living in Australia. The Department of Home Affairs will book another test appointment for you at no extra cost. You should use the time before your next appointment to prepare for the test. If you do not pass after three appointments, the Department may refuse your citizenship application.",
+},
       {
         q: "Can I retake the Australian citizenship test if I fail?",
         a: "Yes. If you do not pass the test, you can generally take the test again. Retesting is part of the citizenship application process and does not require you to submit an entirely new citizenship application.",
