@@ -233,32 +233,35 @@ export default function PracticeTestPage() {
       <div className="min-h-screen bg-[#F5F7FA] text-[#172033]">
         <Header />
 
-        <main className="mx-auto max-w-4xl px-5 py-12 md:px-8 md:py-16">
-          <div className="text-center">
-            <div
-              className={`mx-auto flex h-16 w-16 items-center justify-center rounded-2xl text-white shadow-lg ${
-                results.passed ? "bg-[#18864B]" : "bg-[#C8102E]"
-              }`}
-            >
-              {results.passed ? <CheckCircle2 size={30} /> : <X size={30} />}
-            </div>
+        <main className="mx-auto max-w-4xl px-5 py-8 md:px-8 md:py-4">
+         <div className="flex items-center justify-center gap-5 text-left">
+  {/* Check / Wrong Box */}
+  <div
+    className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl text-white shadow-lg ${
+      results.passed ? "bg-[#18864B]" : "bg-[#C8102E]"
+    }`}
+  >
+    {results.passed ? <CheckCircle2 size={30} /> : <X size={30} />}
+  </div>
 
-            <p className="mt-6 text-xs font-bold uppercase tracking-widest text-[#C8102E]">
-              Practice Test Complete
-            </p>
+  {/* Content */}
+  <div>
+    <p className="text-xs font-bold uppercase tracking-widest text-[#C8102E]">
+      Practice Test Complete
+    </p>
 
-            <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-[#002868] md:text-5xl">
-              {results.passed ? "Great work!" : "Keep practising."}
-            </h1>
+    <h1 className="mt-2 text-4xl font-extrabold tracking-tight text-[#002868] md:text-5xl">
+      {results.passed ? "Great work!" : "Keep practising."}
+    </h1>
 
-            <p className="mx-auto mt-4 max-w-xl leading-7 text-[#667085]">
-              {results.passed
-                ? "You reached the practice passing target. Keep reviewing the topics to strengthen your preparation."
-                : "You did not reach the practice passing target this time. Review the topics and try the test again."}
-            </p>
-          </div>
-
-          <div className="mt-10 rounded-3xl border border-[#E4E7EC] bg-white p-6 shadow-sm md:p-8">
+    <p className="mt-2 max-w-xl leading-7 text-[#667085]">
+      {results.passed
+        ? "You reached the practice passing target. Keep reviewing the topics to strengthen your preparation."
+        : "You did not reach the practice passing target this time. Review the topics and try the test again."}
+    </p>
+  </div>
+</div>
+          <div className="mt-2 rounded-3xl border border-[#E4E7EC] bg-white p-6 shadow-sm md:p-8">
             <div className="grid gap-4 md:grid-cols-3">
               <ResultMetric
                 value={`${results.totalCorrect}/20`}
@@ -279,7 +282,7 @@ export default function PracticeTestPage() {
               />
             </div>
 
-            <div className="mt-8 rounded-2xl border border-[#E4E7EC] bg-[#F5F7FA] p-5">
+            <div className="mt-4 rounded-2xl border border-[#E4E7EC] bg-[#F5F7FA] p-5">
               <div className="flex items-start gap-3">
                 <ShieldCheck
                   size={20}
@@ -297,7 +300,7 @@ export default function PracticeTestPage() {
               </div>
             </div>
 
-            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-4 flex flex-col gap-3 sm:flex-row">
               <button
                 onClick={restartTest}
                 className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-full bg-[#002868] px-5 text-sm font-bold text-white transition hover:bg-[#001f50]"
@@ -315,7 +318,7 @@ export default function PracticeTestPage() {
             </div>
           </div>
 
-          <div className="mt-6 overflow-hidden rounded-3xl bg-[#001B44] p-7 text-white shadow-xl sm:p-10">
+          <div className="mt-2 overflow-hidden rounded-3xl bg-[#001B44] p-7 text-white shadow-xl sm:p-6">
             <div className="flex flex-col justify-between gap-7 md:flex-row md:items-center">
               <div>
                 <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-semibold">

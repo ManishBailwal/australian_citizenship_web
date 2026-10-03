@@ -15,7 +15,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-extrabold text-lg tracking-tight block leading-none">
-                  Aussie<span className="text-[#C8102E]">Citizenship</span>
+                  Aussie<span className="text-[#C8102E] ml-2">Citizenship</span>
                 </span>
                 <span className="text-[10px] uppercase tracking-widest text-[#667085] font-semibold">
                   Official Prep 2026
