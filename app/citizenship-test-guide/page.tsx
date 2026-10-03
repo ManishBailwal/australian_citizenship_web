@@ -1,4 +1,4 @@
-"use client" ;
+"use client";
 import React from 'react';
 import { ShieldCheck, FileText, DollarSign, Award, CheckCircle2, AlertTriangle, Clock, HelpCircle, ArrowRight, UserCheck, Calendar, MapPin, BookOpen } from 'lucide-react';
 import Header from '@/components/Header';
@@ -78,7 +78,7 @@ export default function CitizenshipGuide() {
 
       {/* Main Content Container */}
       <main className="max-w-4xl mx-auto px-6 lg:px-8 py-16 space-y-16">
-        
+
         {/* Section 1: Eligibility Criteria & Residence Requirements */}
         <section id="criteria" className="bg-white p-8 sm:p-10 rounded-3xl border border-[#E4E7EC] shadow-sm space-y-6">
           <div className="flex items-center gap-3">
@@ -87,7 +87,7 @@ export default function CitizenshipGuide() {
             </div>
             <h2 className="text-2xl font-extrabold text-[#002868]">Eligibility Criteria & Residence Requirements</h2>
           </div>
-          
+
           <p className="text-[#667085] leading-relaxed">
             Before applying for Australian citizenship by conferral, the Department of Home Affairs mandates that you meet strict lawful residence, character, and permanent residency prerequisites:
           </p>
@@ -203,23 +203,36 @@ export default function CitizenshipGuide() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="p-6 rounded-2xl bg-[#EEF3FB] border border-[#002868]/20 space-y-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-[#C8102E]">Standard Conferral Fee</span>
-              <h3 className="text-xl font-bold text-[#002868]">General Application</h3>
-              <p className="text-3xl font-extrabold text-[#002868] pt-1">$490 AUD</p>
-              <p className="text-xs text-[#667085]">Covers document processing, interview administration, and test evaluation.</p>
+              <span className="text-xs font-bold uppercase tracking-wider text-[#C8102E]">
+                Standard Conferral Fee
+              </span>
+
+              <h3 className="text-xl font-bold text-[#002868]">
+                General Application
+              </h3>
+
+              <p className="text-3xl font-extrabold text-[#002868] pt-1">
+                $575 AUD
+              </p>
+
+              <p className="text-xs text-[#667085]">
+                Fees may change. Check the latest Department of Home Affairs fee
+                schedule before applying.
+              </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-[#F5F7FA] border border-[#E4E7EC] space-y-2">
               <span className="text-xs font-bold uppercase tracking-wider text-[#667085]">Concession Rate</span>
               <h3 className="text-xl font-bold text-[#172033]">Eligible Pensioners / Concession Cards</h3>
               <p className="text-3xl font-extrabold text-[#172033] pt-1">Reduced Fee / Exempt</p>
-              <p className="text-xs text-[#667085]">Holders of valid Australian government concession cards (e.g., Pensioner Concession Card) may qualify for reduced pricing.</p>
+              <p className="text-xs text-[#667085]">Eligible applicants may qualify for a reduced fee or exemption.
+      Check the latest Department of Home Affairs requirements before applying.</p>
             </div>
           </div>
         </section>
 
-      
-      {/* Section 5: Test Format & Passing Rules */}
+
+        {/* Section 5: Test Format & Passing Rules */}
         <section id="passing" className="bg-white p-8 sm:p-10 rounded-3xl border border-[#E4E7EC] shadow-sm space-y-6">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-[#EEF3FB] text-[#002868] flex items-center justify-center font-bold">
@@ -336,9 +349,14 @@ export default function CitizenshipGuide() {
               <h3 className="font-bold text-[#172033] text-sm flex items-center gap-2">
                 <UserCheck className="w-4 h-4 text-[#002868]" /> Test Exemptions
               </h3>
-              <p className="text-sm text-[#667085] leading-relaxed">
-                Certain applicants are exempt from sitting the citizenship test, including individuals aged 60 and over, or those with permanent hearing, sight, or speech impairments.
-              </p>
+            <p className="text-sm text-[#667085] leading-relaxed">
+  Some applicants may not be required to sit the standard citizenship test,
+  including certain applicants aged 60 or over and people with certain
+  permanent or enduring impairments. Depending on their circumstances, the
+  Department of Home Affairs may arrange an interview or other assessment
+  instead. Check the latest requirements with the Department of Home Affairs
+  to determine what applies to your situation.
+</p>
             </div>
           </div>
         </section>

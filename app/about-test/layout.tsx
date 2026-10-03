@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Australian Citizenship Test: Format, Questions & Passing Score',
   description:
     'Learn how the Australian citizenship test works, including the test format, number of questions, time limit, passing score, Australian values and what to expect on test day.',
+    alternates: {
+  canonical: 'https://www.citizenshiptestau.com/about-test',
+},
 };
 
 export default function Layout({

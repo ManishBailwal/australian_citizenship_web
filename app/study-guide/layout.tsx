@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Australian Citizenship Test Study Guide: Topics & Preparation',
   description:
     'Prepare for the Australian citizenship test with a study guide covering Australian values, democracy, government, history, geography, citizenship responsibilities and practice strategies.',
+    alternates: {
+  canonical: 'https://www.citizenshiptestau.com/study-guide',
+},
 };
 
 export default function Layout({

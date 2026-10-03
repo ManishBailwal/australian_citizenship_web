@@ -30,10 +30,17 @@ export default function Footer() {
           {/* Quick Links */}
          <div className="md:col-span-3 space-y-4">
   <h4 className="text-sm font-bold uppercase tracking-wider text-slate-200">
-    Legal
+    Legal & Resources
   </h4>
 
   <ul className="space-y-2.5 text-sm text-slate-400">
+
+     <li>
+      <a href="/australian-values" className="hover:text-white transition-colors">
+        Australian Values
+      </a>
+    </li>
+    
     <li>
       <a
         href="/privacy-policy"
