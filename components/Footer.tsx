@@ -18,7 +18,7 @@ export default function Footer() {
                   Aussie<span className="text-[#C8102E] ml-2">Citizenship</span>
                 </span>
                 <span className="text-[10px] uppercase tracking-widest text-[#667085] font-semibold">
-                  Official Prep 2026
+                  Australian Citizenship Test Prep
                 </span>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Footer() {
         Australian Values
       </a>
     </li>
-    
+
     <li>
       <a
         href="/privacy-policy"
