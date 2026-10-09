@@ -17,17 +17,19 @@ export default function Hero() {
             {/* Official Badge */}
             <div className="inline-flex items-center gap-2 bg-[#002868]/50 border border-[#002868] text-[#EEF3FB] px-4 py-2 rounded-full text-sm font-medium">
               <ShieldCheck className="w-4 h-4 text-[#C8102E]" />
-              <span>Based on the Official &ldquo;Our Common Bond&rdquo; Guide</span>
+            <span>
+  Based on the Australian Government&apos;s &ldquo;Our Common Bond&rdquo; Guide
+</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-              Pass Your <span className="text-[#C8102E]">Australian Citizenship</span> Test on the First Try.
+             Prepare for Your <span className="text-[#C8102E]">Australian Citizenship</span> Test with Confidence.
             </h1>
 
             {/* Subtitle */}
             <p className="text-[#667085] text-lg sm:text-xl max-w-2xl leading-relaxed">
-              Prepare with realistic timed mock exams, instant explanations, and up-to-date practice questions designed to mirror the official Department of Home Affairs test.
+             Prepare with realistic timed mock exams, instant explanations, and practice questions based on the official Australian citizenship test topics and study resources.
             </p>
 
             {/* CTA Buttons */}
@@ -51,11 +53,11 @@ export default function Hero() {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-6 border-t border-white/10">
               <div className="flex items-center gap-2 text-sm text-slate-300">
                 <CheckCircle2 className="w-4 h-4 text-[#18864B]" />
-                <span>99% Pass Rate</span>
+                <span>500+ Questions</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-slate-300">
                 <CheckCircle2 className="w-4 h-4 text-[#18864B]" />
-                <span>500+ Questions</span>
+                <span>20 Mock Tests</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-slate-300 col-span-2 sm:col-span-1">
                 <CheckCircle2 className="w-4 h-4 text-[#18864B]" />
