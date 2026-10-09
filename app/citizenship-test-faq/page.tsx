@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from "react";
@@ -19,8 +18,18 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+type FAQItem = {
+  q: string;
+  a: string;
+};
 
-const FAQS = [
+type FAQSection = {
+  category: string;
+  icon: typeof BookOpen;
+  questions: FAQItem[];
+};
+
+const FAQS: FAQSection[] = [
   {
     category: "Test Basics",
     icon: BookOpen,
@@ -47,6 +56,7 @@ const FAQS = [
       },
     ],
   },
+
   {
     category: "Passing Score & Australian Values",
     icon: CheckCircle2,
@@ -73,6 +83,7 @@ const FAQS = [
       },
     ],
   },
+
   {
     category: "Booking & Test Day",
     icon: Calendar,
@@ -99,14 +110,15 @@ const FAQS = [
       },
     ],
   },
+
   {
     category: "Failing & Retaking the Test",
     icon: ShieldCheck,
     questions: [
       {
-  q: "What happens if I fail the Australian citizenship test?",
-  a: "If you do not pass the Australian citizenship test, this does not affect your visa and you can continue living in Australia. The Department of Home Affairs will book another test appointment for you at no extra cost. You should use the time before your next appointment to prepare for the test. If you do not pass after three appointments, the Department may refuse your citizenship application.",
-},
+        q: "What happens if I fail the Australian citizenship test?",
+        a: "If you do not pass the Australian citizenship test, the Department of Home Affairs will provide information about the next steps and any further test opportunity available to you. You should use the time before your next appointment to review the official study material and prepare again. Follow the instructions in your official correspondence, as the process can depend on your individual application.",
+      },
       {
         q: "Can I retake the Australian citizenship test if I fail?",
         a: "Yes. If you do not pass the test, you can generally take the test again. Retesting is part of the citizenship application process and does not require you to submit an entirely new citizenship application.",
@@ -125,6 +137,7 @@ const FAQS = [
       },
     ],
   },
+
   {
     category: "Preparation & Study",
     icon: Star,
@@ -261,6 +274,7 @@ export default function CitizenshipTestFAQ() {
               <p className="text-sm font-bold text-[#172033]">
                 Your citizenship test questions, answered
               </p>
+
               <p className="mt-1 text-xs leading-5 text-[#667085]">
                 Information is based on the official Australian citizenship
                 test study resources and application guidance.
@@ -436,7 +450,9 @@ export default function CitizenshipTestFAQ() {
 
               <div className="rounded-2xl border border-[#C8102E]/30 bg-[#C8102E]/10 p-5 text-center">
                 <p className="text-2xl font-extrabold">5/5</p>
-                <p className="mt-1 text-xs text-slate-300">Values Required</p>
+                <p className="mt-1 text-xs text-slate-300">
+                  Values Required
+                </p>
               </div>
             </div>
           </section>
@@ -456,7 +472,7 @@ export default function CitizenshipTestFAQ() {
             </h2>
 
             <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-[#667085] sm:text-base">
-              Stop reading and start practising. Take our free citizenship
+              Put your knowledge into practice with a free citizenship
               practice exam and experience a timed test environment.
             </p>
 
@@ -496,4 +512,3 @@ export default function CitizenshipTestFAQ() {
     </div>
   );
 }
-

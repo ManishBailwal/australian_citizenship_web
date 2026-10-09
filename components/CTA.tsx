@@ -9,42 +9,54 @@ export default function CTA() {
       <div className="absolute -bottom-24 -right-24 w-80 h-80 bg-[#C8102E]/20 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10 text-center space-y-8">
-        
+
+        {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-[#002868]/60 border border-[#002868] text-[#EEF3FB] px-4 py-2 rounded-full text-sm font-medium">
           <Sparkles className="w-4 h-4 text-[#C8102E]" />
-          <span>Start Your Journey Today — 100% Free Practice</span>
+          <span>Free Australian Citizenship Test Practice</span>
         </div>
 
+        {/* Heading */}
         <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight max-w-3xl mx-auto">
-          Ready to Ace Your <span className="text-[#C8102E]">Citizenship Test</span>?
+          Ready to Prepare for Your{' '}
+          <span className="text-[#C8102E]">Citizenship Test</span>?
         </h2>
 
-        <p className="text-[#667085] text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-          Join thousands of successful applicants. Take your first timed mock exam now and test your readiness in under 45 minutes.
+        {/* Description */}
+        <p className="text-[#CBD5E1] text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
+          Take a practice test, review your answers, and identify the topics
+          you may want to study before taking the official Australian
+          citizenship test.
         </p>
 
+        {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <a 
-            href="/exam" 
+          <a
+            href="/exam"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#C8102E] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#C8102E]/90 transition-all shadow-lg hover:shadow-[#C8102E]/20 text-base"
           >
             <span>Start Free Practice Test</span>
             <ArrowRight className="w-5 h-5" />
           </a>
-          <a 
-            href="/study-guide" 
+
+          <a
+            href="/study-guide"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 text-white border border-white/20 font-medium px-8 py-4 rounded-full hover:bg-white/15 transition-all text-base"
           >
             Review Study Guide
           </a>
         </div>
 
-        <div className="flex items-center justify-center gap-6 pt-6 text-xs text-[#667085]">
+        {/* Trust Points */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 pt-6 text-xs text-[#CBD5E1]">
           <span className="flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-[#18864B]" /> No Credit Card Required
+            <ShieldCheck className="w-4 h-4 text-[#18864B]" />
+            No Credit Card Required
           </span>
+
           <span className="flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-[#18864B]" /> Instant Results & Explanations
+            <ShieldCheck className="w-4 h-4 text-[#18864B]" />
+            Instant Results & Explanations
           </span>
         </div>
 

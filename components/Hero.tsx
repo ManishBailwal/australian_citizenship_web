@@ -92,21 +92,26 @@ export default function Hero() {
                 </p>
 
                 <div className="space-y-3">
-                  <div className="p-3.5 rounded-xl border border-[#E4E7EC] bg-[#F5F7FA] text-sm font-medium flex items-center justify-between hover:border-[#002868] cursor-pointer transition-all">
-                    <span>A) Golden Wattle</span>
-                    <div className="w-4 h-4 rounded-full border border-[#667085]" />
-                  </div>
-                  <div className="p-3.5 rounded-xl border border-[#002868] bg-[#EEF3FB] text-sm font-semibold flex items-center justify-between text-[#002868]">
-                    <span>B) Eucalyptus Blossom</span>
-                    <div className="w-4 h-4 rounded-full bg-[#002868] flex items-center justify-center">
-                      <div className="w-1.5 h-1.5 bg-white rounded-full" />
-                    </div>
-                  </div>
-                  <div className="p-3.5 rounded-xl border border-[#E4E7EC] bg-[#F5F7FA] text-sm font-medium flex items-center justify-between hover:border-[#002868] cursor-pointer transition-all">
-                    <span>C) Waratah</span>
-                    <div className="w-4 h-4 rounded-full border border-[#667085]" />
-                  </div>
-                </div>
+  {/* Correct Answer */}
+  <div className="p-3.5 rounded-xl border border-[#002868] bg-[#EEF3FB] text-sm font-semibold flex items-center justify-between text-[#002868]">
+    <span>A) Golden Wattle</span>
+    <div className="w-4 h-4 rounded-full bg-[#002868] flex items-center justify-center">
+      <div className="w-1.5 h-1.5 bg-white rounded-full" />
+    </div>
+  </div>
+
+  {/* Incorrect Answer */}
+  <div className="p-3.5 rounded-xl border border-[#E4E7EC] bg-[#F5F7FA] text-sm font-medium flex items-center justify-between hover:border-[#002868] cursor-pointer transition-all">
+    <span>B) Eucalyptus Blossom</span>
+    <div className="w-4 h-4 rounded-full border border-[#667085]" />
+  </div>
+
+  {/* Incorrect Answer */}
+  <div className="p-3.5 rounded-xl border border-[#E4E7EC] bg-[#F5F7FA] text-sm font-medium flex items-center justify-between hover:border-[#002868] cursor-pointer transition-all">
+    <span>C) Waratah</span>
+    <div className="w-4 h-4 rounded-full border border-[#667085]" />
+  </div>
+</div>
               </div>
 
               {/* Card Footer / Action */}

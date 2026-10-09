@@ -10,19 +10,19 @@ const faqs = [
   },
   {
     question: "What is the passing score required?",
-    answer: "You must score at least 75% overall, and you must correctly answer all 3 questions regarding Australian values. Our mock tests strictly follow these official scoring rules."
+    answer: "You must score at least 75% overall, and you must correctly answer all 5 questions regarding Australian values. Our mock tests strictly follow these official scoring rules."
   },
   {
     question: "How long do I have to complete the test?",
-    answer: "You are given 45 minutes to complete the 20 questions. Most applicants finish well within this timeframe when properly prepared."
+    answer: "You are given 45 minutes to complete the 20 questions. You can use the available time to answer the questions and review your answers before submitting the test."
   },
   {
-    question: "Are these practice questions updated for 2026?",
-    answer: "Yes, our question bank is continuously updated to reflect the latest version of the official Department of Home Affairs resource book, 'Our Common Bond'."
+    question: "Are these practice questions based on the official study material?",
+    answer: "Our practice questions are based on the topics and study material covered in the Australian Government's Our Common Bond resource. They are intended as preparation material and are not the official citizenship test questions."
   },
   {
     question: "Is the practice test completely free?",
-    answer: "Yes! You can take unlimited free practice tests and chapter reviews to build your confidence before booking your official exam."
+   answer: "Yes! Our website provides free practice tests and chapter reviews to help you prepare for the Australian citizenship test."
   }
 ];
 

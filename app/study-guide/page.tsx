@@ -126,12 +126,12 @@ export default function CitizenshipStudyGuide() {
                 How to Use This Study Guide
               </h2>
 
-              <p className="mt-3 leading-7 text-[#667085]">
-                Start with the official Australian citizenship test study
-                material and work through each major topic. Build your
-                understanding first, then reinforce what you have learned with
-                practice questions and timed mock tests.
-              </p>
+             <p className="mt-3 leading-7 text-[#667085]">
+  Start with the Australian Government's official citizenship test study
+  material and work through the key topics. Build your understanding first,
+  then reinforce what you have learned with practice questions and timed
+  mock tests in our preparation resources.
+</p>
 
               <p className="mt-3 leading-7 text-[#667085]">
                 If you prefer studying on your phone, our Australian Citizenship
@@ -155,12 +155,11 @@ export default function CitizenshipStudyGuide() {
       Australian Citizenship Test Study Topics
     </h2>
 
-    <p className="mt-3 max-w-3xl leading-7 text-[#667085]">
-      Your preparation is divided into four major areas covering the key
-      subjects you need to understand for the Australian citizenship test.
-      Work through each lesson, then reinforce your knowledge with practice
-      questions and mock tests.
-    </p>
+  <p className="mt-3 max-w-3xl leading-7 text-[#667085]">
+  Our preparation resources cover four major areas of the Australian
+  citizenship test. Review the topics below, then continue your preparation
+  with detailed lessons, practice questions and mock tests in our app.
+</p>
   </div>
 
   <div className="space-y-6">
@@ -556,49 +555,7 @@ export default function CitizenshipStudyGuide() {
           </div>
         </section>
 
-        {/* =========================================================
-            MOBILE APP CTA
-        ========================================================= */}
-        <section
-          id="mobile-app"
-          className="relative mt-16 overflow-hidden rounded-3xl bg-[#001B44] p-8 text-white shadow-xl sm:p-12"
-        >
-          <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-[#C8102E]/20 blur-3xl" />
-
-          <div className="relative z-10">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-white">
-              <Smartphone className="h-6 w-6" />
-            </div>
-
-            <h2 className="mt-6 max-w-2xl text-2xl font-extrabold tracking-tight sm:text-3xl">
-              Study the Australian Citizenship Test on Your Phone
-            </h2>
-
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-              Take your preparation beyond the website. Our Australian
-              Citizenship Test mobile app includes study material, practice
-              questions and mock tests, so you can learn, revise and practise
-              wherever you are.
-            </p>
-
-            <div className="mt-7">
-              <a
-                href={GOOGLE_PLAY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-[#C8102E] px-7 py-4 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-[#A80D27]"
-              >
-                Get the App on Google Play
-                <ArrowRight className="h-4 w-4" />
-              </a>
-            </div>
-
-            <p className="mt-4 text-xs text-slate-400">
-              Study material, practice questions and mock tests in one app.
-            </p>
-          </div>
-        </section>
-
+      
         {/* =========================================================
             TEST DAY
         ========================================================= */}
