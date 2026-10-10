@@ -17,6 +17,7 @@ import {
 import { practiceTestQuestions } from "@/data/practiceTestQuestions";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ExamSEOContent from "@/components/ExamSEOContent";
 
 type Answer = "A" | "B" | "C" | "D";
 
@@ -216,8 +217,14 @@ export default function PracticeTestPage() {
                 <ArrowRight size={18} />
               </button>
             </section>
+
+            <ExamSEOContent/>
+
+            
           </div>
         </main>
+
+        
 
         <Footer />
       </div>
